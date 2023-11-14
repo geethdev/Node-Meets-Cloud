@@ -1,0 +1,24 @@
+name: foss Test2 GitHub Action
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Clone the code
+      uses: checkout/checkout@v2
+    - name: Install NodeJS
+      uses: actions/setup-node@v2
+      with:
+        node-version: 16
+
+    - name: Run the Actual JS File
+      run: node index.js
+      
+      
+
+  
+    
