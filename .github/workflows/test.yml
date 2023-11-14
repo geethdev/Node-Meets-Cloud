@@ -9,7 +9,7 @@ jobs:
 
     steps:
     - name: Clone the code
-      uses: checkout/@v2
+      uses: checkout/checkout@v2
     - name: Install NodeJS
       uses: actions/setup-node@v2
       with:
