@@ -17,8 +17,3 @@ jobs:
 
     - name: Run the Actual JS File
       run: node index.js
-      
-      
-
-  
-    
